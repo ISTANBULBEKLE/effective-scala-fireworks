@@ -1,6 +1,23 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/ekipkalir/Desktop/Effective Scala Programming/fireworks/src/main/scala/fireworks/Fireworks.scala:44:44 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m44 |[0m      [33mcase[0m irework:Launched     => firework.next[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                   [31m^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |value next is not a member of fireworks.Firework - did you mean firework.wait?[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/ekipkalir/00_EK_Capgemini_Business/Effective Scala Programming/fireworks/src/main/scala/fireworks/Fireworks.scala:72:23 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m72 |[0m    [33melse[0m Launched.init(countDown, startPosition, numberOfParticles, particlesColor)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       Found:    (Waiting.this.countDown : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       Required: doodle.core.Point[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/ekipkalir/00_EK_Capgemini_Business/Effective Scala Programming/fireworks/src/main/scala/fireworks/Fireworks.scala:72:34 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m72 |[0m    [33melse[0m Launched.init(countDown, startPosition, numberOfParticles, particlesColor)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                  [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Found:    (Waiting.this.startPosition : doodle.core.Point)[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/ekipkalir/00_EK_Capgemini_Business/Effective Scala Programming/fireworks/src/main/scala/fireworks/Fireworks.scala:72:49 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m72 |[0m    [33melse[0m Launched.init(countDown, startPosition, numberOfParticles, particlesColor)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                 [31m^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        Found:    (Waiting.this.numberOfParticles : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        Required: doodle.core.Color[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/ekipkalir/00_EK_Capgemini_Business/Effective Scala Programming/fireworks/src/main/scala/fireworks/Fireworks.scala:72:68 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m72 |[0m    [33melse[0m Launched.init(countDown, startPosition, numberOfParticles, particlesColor)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                    [31m^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |too many arguments for [33mmethod[0m [35minit[0m in [33mobject[0m [35mLaunched[0m: (position: doodle.core.Point, numberOfParticles: Int, particlesColor: [0m
+[0m[[0m[31merror[0m] [0m[0m   |  doodle.core.Color[0m
+[0m[[0m[31merror[0m] [0m[0m   |): fireworks.Launched[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
