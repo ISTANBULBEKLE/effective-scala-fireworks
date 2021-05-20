@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/ekipkalir/Desktop/Effective Scala Programming/fireworks/src/main/scala/fireworks/Fireworks.scala:44:44 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m44 |[0m      [33mcase[0m irework:Launched     => firework.next[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                   [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value next is not a member of fireworks.Firework - did you mean firework.wait?[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
