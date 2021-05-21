@@ -211,7 +211,7 @@ case class Particle(horizontalSpeed: Double, verticalSpeed: Double, position: Po
     // value should be the current value minus the gravity, then reduced by
     // air friction
     val updatedVerticalSpeed = {
-      verticalSpeed - Settings.gravity + Settings.friction
+      Motion.drag(verticalSpeed - Settings.gravity)
     }
     // Particle position is updated according to its new speed
     val updatedPosition = Point(position.x + horizontalSpeed, position.y + verticalSpeed)
